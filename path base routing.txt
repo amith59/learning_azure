@@ -1,0 +1,10 @@
+1-create a first vitual machnine and automatic create one resourse group and
+virtual network
+2-create a subnet of vm's vitrual network 
+3-and go to network setting and open the inbound rule for http 80 port
+4-go to ssh and install apache2 and develop a mini web
+5-create a folder with mkdir app1 within apache2 folder /var/www/html
+6-create a second virtual machine with same resourse group and virtual network
+7-create a application gateway
+8-go to setting taking 2 pools with 1 target
+9- got to add path then change the setting by adding app1/app2

@@ -1,0 +1,21 @@
+how to create vm in azure 
+1->first we go to the azure portal 
+2->create a resource in azure
+3->create a virtual network 
+4-> create a subnet in virtual network
+5->now create a virtual machine with name
+and with our resource and virtual network
+6-create user name and password in vitual machnine
+7- go to the putty or github for conneting the virtual machine through public ip
+8-go to the putty and apply the command 
+9- sudo apt update
+10- sudo apt install apache2
+11- sudo systemctl start apache2
+12- sudo systemctl status apache2
+13-go to the cd /var/www/html
+14- now create a file with sudo vi index1.html
+15 - sudo mv index1.html index.html
+16 - go to the vitual machine in which the network setting
+17- and add the inbound rule for http port 80 
+wth priority 310
+18- copy the public ip address through browser see web
